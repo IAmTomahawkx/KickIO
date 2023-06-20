@@ -7,7 +7,7 @@
     :alt: Supported Python Versions
 
 
-.. image:: https://img.shields.io/github/license/KickIO/KickIO.svg
+.. image:: https://img.shields.io/github/license/IAmTomahawkx/KickIO.svg
     :target: ./LICENSE
     :alt: License
 
@@ -24,7 +24,7 @@ designed around `asyncio <https://docs.python.org/3.9/library/asyncio.html>`_.
 
 Warning
 ========
-KickIO is an _experimental_ library based on a rapidly changing API. Kick has not made their API properly accessible to third parties yet,
+KickIO is an *experimental* library based on a rapidly changing API. Kick has not made their API properly accessible to third parties yet,
 so this library may break due to unannounced changes!
 
 Documentation
