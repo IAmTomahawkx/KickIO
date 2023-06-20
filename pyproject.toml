@@ -1,0 +1,63 @@
+[project]
+name = "kickio"
+description = "An experimental wrapper around the kick.com API"
+readme = "README.rst"
+license = { file = "LICENSE" }
+authors = [
+    { name = "IAmTomahawkx"}
+]
+dynamic = ["version"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Typing :: Typed"
+]
+dependancies = []
+
+[project.optional-dependancies]
+docs = []
+
+[project.urls]
+Home = "https://github.com/IAmTomahawkx/KickIO"
+Tracker = "https://github.com/IAmTomahawkx/KickIO/issues"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = { attr = "kickio.__version__" }
+
+[tool.pyright]
+include = [
+    "kickio"
+]
+exclude = [
+    "**/__pycache__",
+    "build",
+    "dist",
+    "docs"
+]
+reportUnnecessaryTypeIgnoreComment = "warning"
+typeCheckingMode = "basic"
+pythonVersion = 3.11
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+line_length = 120
+combine_as_imports = true
+combine_star = true
