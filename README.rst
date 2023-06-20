@@ -1,4 +1,4 @@
-.. image:: https://raw.githubusercontent.com/KickIO/KickIO/master/meta/splash.png
+.. image:: https://github.com/IAmTomahawkx/KickIO/blob/master/meta/Splash.png
     :align: center
     :alt: Splash Image
     
