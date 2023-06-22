@@ -29,6 +29,9 @@ jobs:
                     python -m ensurepip
                     pip install -U setuptools wheel build
             
+            -   name: Install lib
+                run: pip install .
+            
             -   name: Import check
                 uses: jannekem/run-python-script-action@v1
                 with:
