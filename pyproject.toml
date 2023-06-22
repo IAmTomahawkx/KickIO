@@ -36,6 +36,9 @@ Tracker = "https://github.com/IAmTomahawkx/KickIO/issues"
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools]
+packages = ["kickio"]
+
 [tool.setuptools.dynamic]
 version = { attr = "kickio.__version__" }
 
