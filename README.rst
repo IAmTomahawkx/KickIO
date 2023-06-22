@@ -32,7 +32,7 @@ Documentation
 Not a thing yet.
 
 Support & Development
-========
+======================
 I really don't recommend using this library yet, especially as a beginner. I do not have much spare time, and I would prefer to spend that spare time developing.
 If you are interested in aiding in the development of this library, please join me on `Discord <https://discord.gg/UrJCEkSSqu>`_. 
 Please note that I am not interested in any sort of AI generated contributions.
