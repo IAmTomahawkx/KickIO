@@ -23,9 +23,9 @@ classifiers = [
     "Topic :: Utilities",
     "Typing :: Typed"
 ]
-dependancies = []
+dependencies = []
 
-[project.optional-dependancies]
+[project.optional-dependencies]
 docs = []
 
 [project.urls]
